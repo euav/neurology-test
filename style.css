@@ -1,4 +1,10 @@
-input, select, textarea, button{font-family:inherit;}
+#score {
+    font-style: italic;
+}
+
+li {
+    margin: 15px 0;
+}
 
 .right {
     color: green;
@@ -12,17 +18,13 @@ input, select, textarea, button{font-family:inherit;}
     text-decoration: underline;
 }
 
-#score {
-	font-style: italic;
-}
-
-li {
-	margin: 15px 0;
+input, select, textarea, button {
+    font-family:inherit;
 }
 
 input {
-	background-color: transparent;
-	text-decoration: underline;
+    background-color: transparent;
+    text-decoration: underline;
     border: 0px solid;
     margin: 0px;
     color: black;
